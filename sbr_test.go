@@ -1,7 +1,3 @@
-# sbr
-Golang Struct By Reflect
-
-```go
 package sbr
 
 import (
@@ -24,10 +20,3 @@ func TestStructByReflect(t *testing.T) {
 
 	fmt.Printf("child: %v", child)
 }
-```
-run this program:
-```shell
-=== RUN   TestStructByReflect
-child: {Tom 15 true}--- PASS: TestStructByReflect (0.00s)
-PASS
-```
